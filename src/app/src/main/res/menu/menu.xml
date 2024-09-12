@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VibraimageActivity">
+
+
+    <item android:id="@+id/menu_cameras_idt"
+        android:orderInCategory="100"
+        android:title="@string/menu_cameras"
+        android:icon="@drawable/cam"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item android:id="@+id/menu_camera0"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera1"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera2"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera3"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera4"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera5"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera6"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera7"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera8"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera9"
+                android:title="*"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+            <item android:id="@+id/menu_camera_settings"
+                android:title="@string/camera_settings"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                />
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_preset_idt"
+        android:orderInCategory="100"
+        android:title="@string/menu_preset"
+        android:icon="@drawable/vi"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item android:id="@+id/menu_mode_vi"
+                android:title="@string/mode_vi"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/vi"
+                />
+            <item android:id="@+id/menu_mode_av"
+                android:title="@string/mode_av"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/av"
+                />
+            <item android:id="@+id/menu_mode_ar"
+                android:title="@string/mode_ar"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/ar"
+                />
+            <item android:id="@+id/menu_mode_ld"
+                android:title="@string/mode_ld"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/ld"
+                />
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_preset_id"
+        android:orderInCategory="100"
+        android:title="@string/menu_preset"
+        android:icon="@drawable/vi"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item android:id="@+id/menu_mode_vi_1"
+                android:title="@string/mode_vi"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/vi"
+                />
+            <item android:id="@+id/menu_mode_av_1"
+                android:title="@string/mode_av"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/av"
+                />
+            <item android:id="@+id/menu_mode_ar_1"
+                android:title="@string/mode_ar"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/ar"
+                />
+            <item android:id="@+id/menu_mode_ld_1"
+                android:title="@string/mode_ld"
+                android:orderInCategory="100"
+                app:showAsAction="never"
+                android:checkable="true"
+                android:icon="@drawable/ld"
+                />
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_view_idt"
+        android:orderInCategory="100"
+        android:title="@string/menu_view"
+        app:showAsAction="always"
+        android:icon="@drawable/view"
+        >
+        <menu>
+            <item android:id="@+id/menu_view_vi"
+                android:title="@string/view_vi"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/menu_view_v4"
+                android:title="@string/view_main"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/menu_view_cfg"
+                android:title="@string/view_cfg"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/menu_view_web"
+                android:title="@string/view_web"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_view_id"
+        android:orderInCategory="100"
+        android:title="@string/menu_view"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/menu_view_vi_1"
+                android:title="@string/view_vi"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/menu_view_v4_1"
+                android:title="@string/view_main"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/menu_view_cfg_1"
+                android:title="@string/view_cfg"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/menu_view_web_1"
+                android:title="@string/view_web"
+                android:orderInCategory="100"
+                android:checkable="true"
+                app:showAsAction="never"
+                />
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_action_reset_1"
+        android:title="@string/action_reset"
+        android:orderInCategory="100"
+        android:checkable="false"
+        app:showAsAction="always"
+        android:icon="@drawable/reset"
+        />
+    <item android:id="@+id/menu_action_reset"
+        android:title="@string/action_reset"
+        android:orderInCategory="100"
+        android:checkable="false"
+        app:showAsAction="never"
+        />
+
+
+    <item android:id="@+id/menu_action_measure_1"
+        android:title="@string/action_measure"
+        android:orderInCategory="100"
+        android:checkable="true"
+        app:showAsAction="always"
+        android:icon="@drawable/measurement"
+        />
+    <item android:id="@+id/menu_action_measure"
+        android:title="@string/action_measure"
+        android:orderInCategory="100"
+        android:checkable="true"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menu_defaults_micro"
+        android:title="@string/defaults_micro"
+        android:orderInCategory="100"
+        android:checkable="false"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menu_unregister"
+        android:title="@string/unregister"
+        android:orderInCategory="100"
+        android:checkable="false"
+        app:showAsAction="never"
+        />
+</menu>

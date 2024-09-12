@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.psymaker.vibraimage.vibrama"
+    >
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_EDGE_MODE"
+        android:title="@string/CAM_EDGE_MODE"
+        android:dialogTitle="@string/CAM_EDGE_MODE"
+        android:entries="@array/array_hdr_CAM_EDGE_MODE"
+        android:entryValues="@array/array_var_CAM_EDGE_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_NOISE_REDUCTION_MODE"
+        android:title="@string/CAM_NOISE_REDUCTION_MODE"
+        android:dialogTitle="@string/CAM_NOISE_REDUCTION_MODE"
+        android:entries="@array/array_hdr_CAM_NOISE_REDUCTION"
+        android:entryValues="@array/array_var_CAM_NOISE_REDUCTION"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceBool android:key="CAM_LENS_OPTICAL_STABILIZATION_MODE" android:title="@string/CAM_LENS_OPTICAL_STABILIZATION_MODE" android:persistent="false" />
+
+
+    <!--
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceBool android:key="CAM_CONTROL_AE_LOCK" android:title="@string/CAM_CONTROL_AE_LOCK" android:persistent="false" />
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceBool android:key="CAM_CONTROL_AWB_LOCK" android:title="@string/CAM_CONTROL_AWB_LOCK" android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_AE_EXPOSURE_COMPENSATION"
+        android:title="@string/CAM_CONTROL_AE_EXPOSURE_COMPENSATION"
+        android:dialogTitle="@string/CAM_CONTROL_AE_EXPOSURE_COMPENSATION"
+        android:persistent="false" />
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceInt android:key="CAM_CONTROL_AE_EXPOSURE_COMPENSATION" android:title="@string/CAM_CONTROL_AE_EXPOSURE_COMPENSATION" android:persistent="false" />
+    -->
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_TONEMAP_MODE"
+        android:title="@string/CAM_TONEMAP_MODE"
+        android:dialogTitle="@string/CAM_TONEMAP_MODE"
+        android:entries="@array/array_hdr_CAM_TONEMAP_MODE"
+        android:entryValues="@array/array_var_CAM_TONEMAP_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_AF_MODE"
+        android:title="@string/CAM_CONTROL_AF_MODE"
+        android:dialogTitle="@string/CAM_CONTROL_AF_MODE"
+        android:entries="@array/array_hdr_CAM_CONTROL_AF_MODE"
+        android:entryValues="@array/array_var_CAM_CONTROL_AF_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_AWB_MODE"
+        android:title="@string/CAM_CONTROL_AWB_MODE"
+        android:dialogTitle="@string/CAM_CONTROL_AWB_MODE"
+        android:entries="@array/array_hdr_CAM_CONTROL_AWB_MODE"
+        android:entryValues="@array/array_var_CAM_CONTROL_AWB_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_AE_MODE"
+        android:title="@string/CAM_CONTROL_AE_MODE"
+        android:dialogTitle="@string/CAM_CONTROL_AE_MODE"
+        android:entries="@array/array_hdr_CAM_CONTROL_AE_MODE"
+        android:entryValues="@array/array_var_CAM_CONTROL_AE_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat  android:key="CAM_CONTROL_WB_KELVIN"  android:title="@string/CAM_CONTROL_WB_KELVIN"  android:inputType="numberDecimal" custom:scale="1" android:persistent="false" custom:fmt="%.0f" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_EFFECT_MODE"
+        android:title="@string/CAM_CONTROL_EFFECT_MODE"
+        android:dialogTitle="@string/CAM_CONTROL_EFFECT_MODE"
+        android:entries="@array/array_hdr_CAM_CONTROL_EFFECT_MODE"
+        android:entryValues="@array/array_var_CAM_CONTROL_EFFECT_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_AE_ANTIBANDING_MODE"
+        android:title="@string/CAM_CONTROL_AE_ANTIBANDING_MODE"
+        android:dialogTitle="@string/CAM_CONTROL_AE_ANTIBANDING_MODE"
+        android:entries="@array/array_hdr_CAM_CONTROL_AE_ANTIBANDING_MODE"
+        android:entryValues="@array/array_var_CAM_CONTROL_AE_ANTIBANDING_MODE"
+        android:persistent="false" />
+
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+        android:key="CAM_CONTROL_SCENE_MODE"
+        android:title="@string/CAM_CONTROL_SCENE_MODE"
+        android:dialogTitle="@string/CAM_CONTROL_SCENE_MODE"
+        android:entries="@array/array_hdr_CAM_CONTROL_SCENE_MODE"
+        android:entryValues="@array/array_var_CAM_CONTROL_SCENE_MODE"
+        android:persistent="false" />
+
+</PreferenceScreen>

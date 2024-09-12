@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_hdr_VI_VAR_LD_MODE_CMP">
+        <item>@string/BUTTON_OFF</item>
+        <item>@string/BUTTON_ON</item>
+        <item>@string/BUTTON_CAPTURE</item>
+    </string-array>
+
+    <string-array name="array_var_VI_VAR_LD_MODE_CMP">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="array_hdr_VI_FILTER_CONTOUR">
+        <item>@string/INFO_CFG_FLT_CONTOUR_VI</item>
+        <item>@string/INFO_CFG_FLT_CONTOUR_FIXED</item>
+        <item>@string/INFO_CFG_FLT_CONTOUR_FACE</item>
+    </string-array>
+
+    <string-array name="array_var_VI_FILTER_CONTOUR">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="array_hdr_VI_FACE_MODE">
+        <item>@string/BUTTON_OFF</item>
+        <item>@string/INFO_CFG_FACE_MODE_INTERNAL</item>
+        <item>@string/INFO_CFG_FACE_MODE_OPENCV</item>
+    </string-array>
+
+    <string-array name="array_var_VI_FACE_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="array_hdr_CAM_EDGE_MODE">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_FAST</item>
+        <item>@string/CAM_OPTION_HQ</item>
+        <item>@string/CAM_OPTION_ZERO_SHUTTER_LAG</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_EDGE_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_NOISE_REDUCTION">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_FAST</item>
+        <item>@string/CAM_OPTION_HQ</item>
+        <item>@string/CAM_OPTION_MIN</item>
+        <item>@string/CAM_OPTION_ZERO_SHUTTER_LAG</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_NOISE_REDUCTION">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_TONEMAP_MODE">
+        <item>@string/CAM_OPTION_CONTRAST_CURVE</item>
+        <item>@string/CAM_OPTION_FAST</item>
+        <item>@string/CAM_OPTION_HQ</item>
+        <item>@string/CAM_OPTION_GAMMA_VALUE</item>
+        <item>@string/CAM_OPTION_PRESET_CURVE</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_TONEMAP_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_CONTROL_AF_MODE">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_AUTO</item>
+        <item>@string/CAM_OPTION_MACRO</item>
+        <item>@string/CAM_OPTION_CONTINUOUS_VIDEO</item>
+        <item>@string/CAM_OPTION_CONTINUOUS_PICTURE</item>
+        <item>@string/CAM_OPTION_EDOF</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_CONTROL_AF_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_CONTROL_AWB_MODE">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_AUTO</item>
+        <item>@string/CAM_OPTION_INCANDESCENT</item>
+        <item>@string/CAM_OPTION_FLUORESCENT</item>
+        <item>@string/CAM_OPTION_WARM_FLUORESCENT</item>
+        <item>@string/CAM_OPTION_DAYLIGHT</item>
+        <item>@string/CAM_OPTION_CLOUDY_DAYLIGHT</item>
+        <item>@string/CAM_OPTION_TWILIGHT</item>
+        <item>@string/CAM_OPTION_SHADE</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_CONTROL_AWB_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_CONTROL_AE_MODE">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_ON</item>
+        <item>@string/CAM_ON_AUTO_FLASH</item>
+        <item>@string/ON_ALWAYS_FLASH</item>
+        <item>@string/ON_AUTO_FLASH_REDEYE</item>
+        <item>@string/ON_EXTERNAL_FLASH</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_CONTROL_AE_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_CONTROL_EFFECT_MODE">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_MONO</item>
+        <item>@string/CAM_OPTION_NEGATIVE</item>
+        <item>@string/CAM_OPTION_SOLARIZE</item>
+        <item>@string/CAM_OPTION_SEPIA</item>
+        <item>@string/CAM_OPTION_POSTERIZE</item>
+        <item>@string/CAM_OPTION_WHITEBOARD</item>
+        <item>@string/CAM_OPTION_BLACKBOARD</item>
+        <item>@string/CAM_OPTION_AQUA</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_CONTROL_EFFECT_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_CONTROL_AE_ANTIBANDING_MODE">
+        <item>@string/CAM_OPTION_OFF</item>
+        <item>@string/CAM_OPTION_50HZ</item>
+        <item>@string/CAM_OPTION_60HZ</item>
+        <item>@string/CAM_OPTION_AUTO</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_CONTROL_AE_ANTIBANDING_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="array_hdr_CAM_CONTROL_SCENE_MODE">
+        <item>@string/CAM_OPTION_DISABLED</item>
+        <item>@string/CAM_OPTION_FACE_PRIORITY</item>
+        <item>@string/CAM_OPTION_ACTION</item>
+        <item>@string/CAM_OPTION_PORTRAIT</item>
+        <item>@string/CAM_OPTION_LANDSCAPE</item>
+        <item>@string/CAM_OPTION_NIGHT</item>
+        <item>@string/CAM_OPTION_NIGHT_PORTRAIT</item>
+        <item>@string/CAM_OPTION_THEATRE</item>
+        <item>@string/CAM_OPTION_BEACH</item>
+        <item>@string/CAM_OPTION_SNOW</item>
+        <item>@string/CAM_OPTION_SUNSET</item>
+        <item>@string/CAM_OPTION_STEADYPHOTO</item>
+        <item>@string/CAM_OPTION_FIREWORKS</item>
+        <item>@string/CAM_OPTION_SPORTS</item>
+        <item>@string/CAM_OPTION_PARTY</item>
+        <item>@string/CAM_OPTION_CANDLELIGHT</item>
+        <item>@string/CAM_OPTION_BARCODE</item>
+        <item>@string/CAM_OPTION_HIGH_SPEED_VIDEO</item>
+        <item>@string/CAM_OPTION_HDR</item>
+    </string-array>
+
+    <string-array name="array_var_CAM_CONTROL_SCENE_MODE">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+</resources>

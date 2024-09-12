@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top">
+
+    <com.psymaker.vibraimage.vibrama.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:gravity="top" />
+
+    <com.psymaker.vibraimage.vibrama.DrawView
+        android:id="@+id/draw_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/texture"
+
+        android:layout_alignEnd="@+id/texture"
+        android:layout_alignBottom="@+id/texture"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="top" />
+
+</RelativeLayout>

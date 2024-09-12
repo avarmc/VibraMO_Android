@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/vi_toolbar"
+        android:name="com.psymaker.vibraimage.vibrama.ui.ViToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <fragment
+        android:id="@+id/vi_progress"
+        android:name="com.psymaker.vibraimage.vibrama.ui.ViProgress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom"
+        />
+
+    <fragment
+        android:id="@+id/vi_fragment"
+        android:name="com.psymaker.vibraimage.vibrama.ui.FragmentVI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/vi_fragment_v4"
+        android:name="com.psymaker.vibraimage.vibrama.ui.FragmentV4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/vi_fragment_cfg"
+        android:name="com.psymaker.vibraimage.vibrama.ui.FragmentCfg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/vi_fragment_cfg_camera"
+        android:name="com.psymaker.vibraimage.vibrama.ui.FragmentCfgCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/vi_fragment_web"
+        android:name="com.psymaker.vibraimage.vibrama.ui.FragmentWeb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> 
+
+</LinearLayout>
+
+

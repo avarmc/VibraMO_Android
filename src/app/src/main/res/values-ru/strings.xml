@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VibraMA</string>
+
+    <string name="seq_title">Введите код лицензии</string>
+    <string name="seq_http">Получить ответ</string>
+    <string name="seq_demo">Демо тест</string>
+
+    <string name="seq_key_main">Ключ ПО:</string>
+    <string name="seq_key_hash">Аппаратный ID:</string>
+    <string name="seq_key_answ">Лицензия:</string>
+
+
+    <string name="picture">Изображение</string>
+    <string name="description_info">Информация</string>
+    <string name="request_permission">Приложение запрашивает слудующие разрешения:</string>
+
+    <string name="action_settings">Намтройки</string>
+
+    <string name="menu_account">Учетная запись</string>
+
+    <string name="menu_cameras">Камера</string>
+
+    <string name="menu_preset">Предустановки</string>
+    <string name="mode_vi">VI</string>
+    <string name="mode_av">AV</string>
+    <string name="mode_ar">AR</string>
+    <string name="mode_ld">LD</string>
+
+    <string name="menu_view">Вид</string>
+    <string name="view_vi">Видео</string>
+    <string name="view_main">Основные</string>
+    <string name="view_m">M</string>
+    <string name="view_cfg">Настройки</string>
+    <string name="view_web">Результат измерений</string>
+
+    <string name="action_reset">Сброс</string>
+    <string name="action_measure">Измерение</string>
+
+    <string name="ready_measure">Готов</string>
+    <string name="processing_measure">Обработка</string>
+
+    <string name="camera_back">Задняя камера</string>
+    <string name="camera_front">Передняя камера</string>
+    <string name="camera_settings">Settings</string>
+
+    <string name="defaults_micro">Настройки по умолчанию</string>
+
+    <string name="unregister">Сброс лицензии</string>
+
+    <string name="login_title">Пожалуйста введите логин и пароль</string>
+    <string name="login_login">Логин:</string>
+    <string name="login_pwd">Пароль:</string>
+
+    <string name="BUTTON_YES">Да</string>
+    <string name="BUTTON_NO">Нет</string>
+    <string name="BUTTON_CANCEL">Отмена</string>
+    <string name="BUTTON_CHECK">Проверить</string>
+
+    <string name="BUTTON_ON">Вкл</string>
+    <string name="BUTTON_OFF">Откл</string>
+    <string name="BUTTON_CAPTURE">Запись</string>
+
+    <string name="INFO_V4_FRAME_RATE">Ч/К</string>
+    <string name="INFO_V4_FRAME_RATE_IN">In</string>
+    <string name="INFO_V4_FRAME_RATE_IN_FPS">Fps in</string>
+
+    <string name="INFO_V4_FRAME_RATE_OUTF">Быстрая обработка</string>
+    <string name="INFO_V4_FRAME_RATE_OUTF_FPS">FPS FP</string>
+    <string name="INFO_V4_FRAME_RATE_DROPF">FP Drop</string>
+    <string name="INFO_V4_FRAME_RATE_MAXF">Быстрой обработки</string>
+
+    <string name="INFO_V4_FRAME_RATE_OUTR">Основная обработка</string>
+    <string name="INFO_V4_FRAME_RATE_OUTR_FPS">FPS BP</string>
+    <string name="INFO_V4_FRAME_RATE_DROPR">BP Drop</string>
+    <string name="INFO_V4_FRAME_RATE_MAXR">Основной обработки</string>
+    <string name="INFO_V4_FRAME_RATE_PERIOD">FPS период</string>
+
+    <string name="INFO_V4_FRAME_TIME_VIDEO">Время видео</string>
+    <string name="INFO_V4_MAIN">Основная информация</string>
+
+    <string name="INFO_V4_STAT">Статистика</string>
+
+
+    <string name="INFO_V4_ANGER">Агрессия</string>
+    <string name="INFO_V4_STRESS">Стрресс</string>
+    <string name="INFO_V4_TENSION">Тревожность</string>
+    <string name="INFO_V4_SUSPICIOUS">Опасность</string>
+    <string name="INFO_V4_STATUS">Состояние</string>
+
+    <string name="INFO_NET_STATE_CRITICAL">Критический порог %</string>
+
+    <string name="INFO_CFG_FLT">Фильтры</string>
+    <string name="INFO_CFG_FLT_SP">Single points</string>
+    <string name="INFO_CFG_FLT_DL">Extended</string>
+    <string name="INFO_CFG_FLT_DLF">Extended (fast)</string>
+    <string name="INFO_CFG_FLT_STR">Stretch</string>
+    <string name="INFO_CFG_FLT_MSCONT">Max speed contour</string>
+    <string name="INFO_CFG_FLT_FPS2IN">Downrate</string>
+    <string name="INFO_CFG_FLT_AM">Am scale</string>
+    <string name="INFO_CFG_FLT_CT">Space</string>
+    <string name="INFO_CFG_FLT_DIS">disable *</string>
+    <string name="INFO_CFG_FLT_DIS_A">disable Am</string>
+    <string name="INFO_CFG_FLT_DIS_B">disable F</string>
+    <string name="INFO_CFG_FLT_DIS_2X">disable 2x(fast)</string>
+    <string name="INFO_CFG_FLT_DIS_VI0">disable VI(N)</string>
+    <string name="INFO_CFG_FLT_DIS_VI1">disable VI(10)</string>
+    <string name="INFO_CFG_FLT_DIS_VI2">disable VI(2)</string>
+    <string name="INFO_CFG_FLT_DIS_FFTU">disable FFT</string>
+    <string name="INFO_CFG_FLT_DIS_ENTR">disable Entropy</string>
+    <string name="INFO_CFG_FLT_DIS_AUDIO">disable Audio</string>
+
+    <string name="INFO_CFG_FLT_MOTION">Детектор движений</string>
+    <string name="INFO_CFG_FLT_MOTION_10X">use 10x</string>
+    <string name="INFO_CFG_FLT_MOTION_LEVEL">level</string>
+    <string name="INFO_CFG_FLT_MOTION_AUTO_RESET">auto reset</string>
+    <string name="INFO_CFG_FLT_NSKIP">skip frames</string>
+    <string name="INFO_CFG_FLT_AUTODOWNRATE">Auto downrate</string>
+    <string name="INFO_CFG_FLT_CONTOUR_FIXED">Fixed contour</string>
+    <string name="INFO_CFG_FLT_CONTOUR_FACE">Face only</string>
+    <string name="INFO_CFG_FLT_CONTOUR_VI">VI</string>
+    <string name="INFO_CFG_FLT_CONTOUR">Contour mode</string>
+    <string name="INFO_CFG_FLT_STABX">Stab. X</string>
+    <string name="INFO_CFG_FLT_STABY">Stab. Y</string>
+
+    <string name="INFO_CFG_MISC">Разное</string>
+    <string name="INFO_CFG_FACE_DRAW">Draw face</string>
+    <string name="INFO_CFG_FACE_MODE">Face mode</string>
+    <string name="INFO_CFG_FACE_MODE_INTERNAL">Internal</string>
+    <string name="INFO_CFG_FACE_MODE_OPENCV">OpenCV</string>
+    <string name="INFO_CFG_XLS_OPEN">Open result XLS</string>
+
+    <string name="INFO_CFG_MAIN">Основные</string>
+    <string name="INFO_CFG_N">N</string>
+    <string name="INFO_CFG_N1">N(10)</string>
+    <string name="INFO_CFG_N2">N(2)</string>
+    <string name="INFO_CFG_K">K</string>
+    <string name="INFO_CFG_TH">L</string>
+
+    <string name="INFO_STATE_LEVEL">Уровни опасности</string>
+    <string name="INFO_STATE_LEVEL_AG">Ag</string>
+    <string name="INFO_STATE_LEVEL_ST">St</string>
+    <string name="INFO_STATE_LEVEL_TN">Tn</string>
+
+    <string name="INFO_AUDIO_LEVEL">Уровень звука</string>
+    <string name="INFO_AUDIO_LEVEL25">Уровень звука (25fps)</string>
+
+    <string name="INFO_CFG_AVG">AVG filter</string>
+    <string name="INFO_CFG_AVG_ANGER">Агрессия</string>
+    <string name="INFO_CFG_AVG_STRESS">Стресс</string>
+    <string name="INFO_CFG_AVG_TENSION">Тревожность</string>
+    <string name="INFO_CFG_AVG_STATE_SRC">Опасность</string>
+    <string name="INFO_CFG_AVG_ENERGY">Энергичность</string>
+    <string name="INFO_CFG_AVG_COMPAT">Совместимость</string>
+    <string name="INFO_CFG_AVG_DANGER">Опасность</string>
+    <string name="INFO_CFG_AVG_BALANCE">Уравновешенность</string>
+    <string name="INFO_CFG_AVG_CHARMING">Харизматичность</string>
+
+    <string name="INFO_CFG_M">M</string>
+    <string name="INFO_CFG_M_PERIOD">M длительность</string>
+    <string name="INFO_CFG_M_DELAY">M задержка</string>
+
+    <string name="INFO_WND_M_CONFIG">Параметры</string>
+    <string name="INFO_WND_M_T10">T10</string>
+
+    <string name="INFO_STAT_A1X">A1 (fast)</string>
+    <string name="INFO_STAT_A4X">A4 (fast)</string>
+
+    <string name="INFO_STAT_A1">A1</string>
+    <string name="INFO_STAT_A2">A2</string>
+    <string name="INFO_STAT_A3">A3</string>
+    <string name="INFO_STAT_A4">A4</string>
+    <string name="INFO_STAT_A5">A5</string>
+    <string name="INFO_STAT_A6">A6</string>
+    <string name="INFO_STAT_A7">A7</string>
+    <string name="INFO_STAT_A8">A8</string>
+    <string name="INFO_STAT_A9">A9</string>
+
+    <string name="INFO_STAT_F1X">F1 (fast)</string>
+    <string name="INFO_STAT_F1D">dF1 (fast)</string>
+
+    <string name="INFO_STAT_F1">F1</string>
+    <string name="INFO_STAT_F2">F2</string>
+    <string name="INFO_STAT_F3">F3</string>
+    <string name="INFO_STAT_F4">F4</string>
+    <string name="INFO_STAT_F5XT">F5 tens.</string>
+    <string name="INFO_STAT_F5X">F5 (fast)</string>
+    <string name="INFO_STAT_F5X_TEXT">Tension/Anxiety (F5X)</string>
+    <string name="INFO_STAT_F5">F5</string>
+    <string name="INFO_STAT_F6">F6</string>
+    <string name="INFO_STAT_F6_TEXT">Inhibition (F6)</string>
+    <string name="INFO_STAT_F7">F7</string>
+    <string name="INFO_STAT_F8">F8</string>
+    <string name="INFO_STAT_F9">F9</string>
+    <string name="INFO_STAT_F9_TEXT">Neuroticism (F9)</string>
+
+    <string name="INFO_STAT_S1">S1</string>
+    <string name="INFO_STAT_S2">S2</string>
+    <string name="INFO_STAT_S3">S3</string>
+    <string name="INFO_STAT_S4">S4</string>
+    <string name="INFO_STAT_S5">S5</string>
+    <string name="INFO_STAT_S6">S6</string>
+    <string name="INFO_STAT_S7">S7</string>
+    <string name="INFO_STAT_S8">S8</string>
+    <string name="INFO_STAT_S9">S9</string>
+
+    <string name="INFO_STAT_P1">P1</string>
+    <string name="INFO_STAT_P2">P2</string>
+    <string name="INFO_STAT_P3">P3</string>
+    <string name="INFO_STAT_P4">P4</string>
+    <string name="INFO_STAT_P5">P5 lie</string>
+    <string name="INFO_STAT_P6">P6 string.</string>
+    <string name="INFO_STAT_P6_TEXT">Stress (P6)</string>
+    <string name="INFO_STAT_P7">P7 ang.</string>
+    <string name="INFO_STAT_P7_TEXT">Aggression (P7)</string>
+    <string name="INFO_STAT_P6A">P6A string.</string>
+    <string name="INFO_STAT_P7A">P7A ang.</string>
+    <string name="INFO_STAT_P6F">P6F string.</string>
+    <string name="INFO_STAT_P7F">P7F ang.</string>
+    <string name="INFO_STAT_P8">P8 en.</string>
+    <string name="INFO_STAT_P8_TEXT">Energy (P8)</string>
+    <string name="INFO_STAT_P8A">P8A en.</string>
+    <string name="INFO_STAT_P8F">P8F en.</string>
+    <string name="INFO_STAT_P9">P9 H</string>
+    <string name="INFO_STAT_P9A">P9A H</string>
+    <string name="INFO_STAT_P9F">P9F H</string>
+    <string name="INFO_STAT_P10">P10 Δ</string>
+    <string name="INFO_STAT_P10A">P10A Δ</string>
+    <string name="INFO_STAT_P10F">P10F Δ</string>
+    <string name="INFO_STAT_P11">P11 æ</string>
+    <string name="INFO_STAT_P11A">P11A æ</string>
+    <string name="INFO_STAT_P11F">P11F æ</string>
+    <string name="INFO_STAT_P12">P12 S</string>
+    <string name="INFO_STAT_P12A">P12A S</string>
+    <string name="INFO_STAT_P12F">P12F S</string>
+    <string name="INFO_STAT_P13">P13</string>
+    <string name="INFO_STAT_P14">P14</string>
+    <string name="INFO_STAT_P15">P15</string>
+    <string name="INFO_STAT_P16">P16 CN</string>
+    <string name="INFO_STAT_P16_TEXT">Balance (P16)</string>
+    <string name="INFO_STAT_P17">P17 CS</string>
+    <string name="INFO_STAT_P17_TEXT">Charm (P17)</string>
+    <string name="INFO_STAT_P18">P18 Com</string>
+    <string name="INFO_STAT_P18_TEXT">Self regulation (P18)</string>
+    <string name="INFO_STAT_P19">P19 St</string>
+    <string name="INFO_STAT_P19_TEXT">Suspect (P19)</string>
+    <string name="INFO_STAT_P20">P20 LD</string>
+    <string name="INFO_STAT_P20_TEXT">LD (P20)</string>
+    <string name="INFO_STAT_P21">P21 Health</string>
+    <string name="INFO_STAT_P21_TEXT">Health (P21)</string>
+    <string name="INFO_STAT_P22">P22 Health\'</string>
+    <string name="INFO_STAT_P22_TEXT">Health\' (P22)</string>
+    <string name="INFO_STAT_P23">P23 ΣVi</string>
+    <string name="INFO_STAT_P23_TEXT">ΣVi (P23)</string>
+    <string name="INFO_STAT_P24">P24 Slp</string>
+    <string name="INFO_STAT_P24_TEXT">Sleepiness (P24)</string>
+    <string name="INFO_STAT_P25">P25 VSlp</string>
+    <string name="INFO_STAT_P25_TEXT">VSlp (P25)</string>
+    <string name="INFO_STAT_P26">P26 Extr</string>
+    <string name="INFO_STAT_P26_TEXT">Extraversion (P26)</string>
+    <string name="INFO_STAT_P27">P27 Stab</string>
+    <string name="INFO_STAT_P27_TEXT">Stability (P27)</string>
+
+    <string name="INFO_STAT_P29">DP</string>
+    <string name="INFO_STAT_P29_TEXT">Depression (P29)</string>
+    <string name="INFO_STAT_P30">HP</string>
+    <string name="INFO_STAT_P30_TEXT">Happiness (P30)</string>
+
+    <string name="INFO_CFG_QTEST">Тест качества</string>
+    <string name="INFO_CFG_QTEST_ENABLE">Включен</string>
+    <string name="INFO_CFG_QTEST_LEVEL_LIGHT">Уровень света</string>
+    <string name="VI_INFO_QTEST_FPS_MIN">FPS min</string>
+    <string name="VI_INFO_QTEST_FPS_MAX">FPS max</string>
+    <string name="VI_INFO_QTEST_FACE_DELAY">face delay</string>
+
+    <string name="CAM_OPTION_OFF">Off</string>
+    <string name="CAM_OPTION_FAST">Fast</string>
+    <string name="CAM_OPTION_HQ">High quality</string>
+    <string name="CAM_OPTION_MIN">High quality</string>
+    <string name="CAM_OPTION_ZERO_SHUTTER_LAG">Zero shutter lag</string>
+    <string name="CAM_OPTION_CONTRAST_CURVE">Contrast curve</string>
+    <string name="CAM_OPTION_GAMMA_VALUE">Gamma value</string>
+    <string name="CAM_OPTION_PRESET_CURVE">Preset</string>
+
+    <string name="CAM_OPTION_AUTO">Auto</string>
+    <string name="CAM_OPTION_MACRO">Macro</string>
+    <string name="CAM_OPTION_CONTINUOUS_VIDEO">Video</string>
+    <string name="CAM_OPTION_CONTINUOUS_PICTURE">Picture</string>
+    <string name="CAM_OPTION_EDOF">Digital focus</string>
+    <string name="CAM_OPTION_INCANDESCENT">Incandescent</string>
+    <string name="CAM_OPTION_FLUORESCENT">Fluorescent </string>
+    <string name="CAM_OPTION_WARM_FLUORESCENT">Digital focus</string>
+    <string name="CAM_OPTION_DAYLIGHT">Daylight</string>
+    <string name="CAM_OPTION_CLOUDY_DAYLIGHT">Cloudy daylight</string>
+    <string name="CAM_OPTION_TWILIGHT">Twilight</string>
+    <string name="CAM_OPTION_SHADE">Shade</string>
+    <string name="CAM_OPTION_MONO">Mono</string>
+    <string name="CAM_OPTION_NEGATIVE">Negative</string>
+    <string name="CAM_OPTION_SOLARIZE">Solarize</string>
+    <string name="CAM_OPTION_SEPIA">Sepia</string>
+    <string name="CAM_OPTION_POSTERIZE">Posterize</string>
+    <string name="CAM_OPTION_WHITEBOARD">White board</string>
+    <string name="CAM_OPTION_BLACKBOARD">Black board</string>
+    <string name="CAM_OPTION_AQUA">Aqua</string>
+    <string name="CAM_OPTION_50HZ">50Hz</string>
+    <string name="CAM_OPTION_60HZ">60Hz</string>
+
+    <string name="CAM_OPTION_DISABLED">Disabled</string>
+    <string name="CAM_OPTION_FACE_PRIORITY">Face</string>
+    <string name="CAM_OPTION_ACTION">Action</string>
+    <string name="CAM_OPTION_PORTRAIT">Portrait</string>
+    <string name="CAM_OPTION_LANDSCAPE">Landscape</string>
+    <string name="CAM_OPTION_NIGHT">Night</string>
+    <string name="CAM_OPTION_NIGHT_PORTRAIT">Night portrait</string>
+    <string name="CAM_OPTION_THEATRE">Theatre</string>
+    <string name="CAM_OPTION_BEACH">Beach</string>
+    <string name="CAM_OPTION_SNOW">Snow</string>
+    <string name="CAM_OPTION_SUNSET">Sunset</string>
+    <string name="CAM_OPTION_STEADYPHOTO">Steady</string>
+    <string name="CAM_OPTION_FIREWORKS">Fireworks</string>
+    <string name="CAM_OPTION_SPORTS">Sport</string>
+    <string name="CAM_OPTION_PARTY">60Hz</string>
+    <string name="CAM_OPTION_CANDLELIGHT">Candle light</string>
+    <string name="CAM_OPTION_BARCODE">Barcode</string>
+    <string name="CAM_OPTION_HIGH_SPEED_VIDEO">High speed</string>
+    <string name="CAM_OPTION_HDR">HDR</string>
+    <string name="CAM_OPTION_ON">On</string>
+    <string name="CAM_ON_AUTO_FLASH">Auto flash</string>
+    <string name="ON_ALWAYS_FLASH">Always flash</string>
+    <string name="ON_AUTO_FLASH_REDEYE">Red eye</string>
+    <string name="ON_EXTERNAL_FLASH">External</string>
+
+    <string name="CAM_EDGE_MODE">Edge enhancement</string>
+    <string name="CAM_NOISE_REDUCTION_MODE">Noise reduction</string>
+    <string name="CAM_LENS_OPTICAL_STABILIZATION_MODE">Optical stabilization</string>
+    <string name="CAM_TONEMAP_MODE">Tone map</string>
+    <string name="CAM_CONTROL_AF_MODE">AF mode</string>
+    <string name="CAM_CONTROL_AWB_MODE">White balance</string>
+    <string name="CAM_CONTROL_AE_MODE">Exposure mode</string>
+    <string name="CAM_CONTROL_WB_KELVIN">Color Temperature(K)</string>
+
+    <string name="CAM_EXP_TIME">Exposure time</string>
+    <string name="CAM_LENS_FOCUS_DISTANCE">Focus distance</string>
+    <string name="CAM_LENS_FOCUS_DISTANCE_AUTO">Auto focus</string>
+    <string name="CAM_FLASH_MODE">Flash mode</string>
+    <string name="CAM_CONTROL_SCENE_MODE">Scene mode</string>
+    <string name="CAM_CONTROL_AE_EXPOSURE_COMPENSATION">Exposure compensation</string>
+    <string name="CAM_CONTROL_ISO">ISO</string>
+    <string name="CAM_CONTROL_AE_ANTIBANDING_MODE">Anti banding</string>
+    <string name="CAM_CONTROL_AE_LOCK">AE Lock</string>
+    <string name="CAM_CONTROL_AWB_LOCK">WB Lock</string>
+    <string name="CAM_CONTROL_EFFECT_MODE">Color effect</string>
+
+</resources>

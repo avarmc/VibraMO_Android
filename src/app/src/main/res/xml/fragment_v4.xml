@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.psymaker.vibraimage.vibrama"
+    >
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+        android:key="VI_VAR_FPSIN"  android:title="@string/INFO_V4_FRAME_RATE" android:persistent="false" android:selectable="false" custom:fmt="%.2f" />
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+        android:key="VI_VAR_FPSOUTF"  android:title="@string/INFO_V4_FRAME_RATE_OUTF" android:persistent="false" android:selectable="false" custom:fmt="%.2f" />
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+        android:key="VI_VAR_FPSOUTR"  android:title="@string/INFO_V4_FRAME_RATE_OUTR" android:persistent="false" android:selectable="false" custom:fmt="%.2f" />
+    <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+        android:key="VI_INFO_TIME_VIDEO"  android:title="@string/INFO_V4_FRAME_TIME_VIDEO" android:persistent="false" android:selectable="false" custom:fmt="%.1f" />
+
+    <PreferenceCategory  android:title="@string/INFO_V4_MAIN"  android:key="INFO_V4_MAIN">
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceInt
+            android:key="VI_VAR_N0_RQST" android:title="@string/INFO_V4_N" android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_VAR_TH" android:title="@string/INFO_V4_TH" android:inputType="numberDecimal" android:persistent="false" custom:fmt="%.0f" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceInt
+            android:key="VI_VAR_SIZE_W"  android:title="@string/INFO_V4_SIZE_W" android:persistent="false" android:selectable="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceInt
+            android:key="VI_VAR_SIZE_H"  android:title="@string/INFO_V4_SIZE_H" android:persistent="false" android:selectable="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory  android:title="@string/INFO_V4_STAT"  android:key="INFO_V4_STAT">
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_VAR_STAT_INTEGR0A"  android:title="@string/INFO_V4_INTEGR0A" android:persistent="false" android:selectable="false" custom:fmt="%.6f" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_VAR_STAT_INTEGR0B"  android:title="@string/INFO_V4_INTEGR0B" android:persistent="false" android:selectable="false" custom:fmt="%.6f" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

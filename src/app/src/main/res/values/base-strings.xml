@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            Vibraimage MA
+
+
+        ]]>
+    </string>
+
+    <string name="url_base">https://psymaker.com/auth/viandroid/check6.php</string>
+
+
+</resources>

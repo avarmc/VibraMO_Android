@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.psymaker.vibraimage.vibrama"
+    >
+
+
+
+    <PreferenceCategory  android:title="@string/INFO_CFG_FLT"  android:key="INFO_CFG_FLT">
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+            android:key="VI_FILTER_CONTOUR"
+            android:title="@string/INFO_CFG_FLT_CONTOUR"
+            android:dialogTitle="@string/INFO_CFG_FLT_CONTOUR"
+            android:entries="@array/array_hdr_VI_FILTER_CONTOUR"
+            android:entryValues="@array/array_var_VI_FILTER_CONTOUR"
+            android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceBool
+            android:key="VI_FILTER_SP" android:title="@string/INFO_CFG_FLT_SP" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_FILTER_DELTA_LO"  android:title="@string/INFO_CFG_FLT_DL"  android:inputType="numberDecimal" android:persistent="false" custom:fmt="%.2f" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_FILTER_DELTA_LOF"  android:title="@string/INFO_CFG_FLT_DLF"  android:inputType="numberDecimal" android:persistent="false" custom:fmt="%.2f" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceInt
+            android:key="VI_VAR_N0_RQST"  android:title="@string/INFO_CFG_N"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_VAR_FPSMAXR"  android:title="@string/INFO_V4_FRAME_RATE_OUTR_FPS"  android:inputType="numberDecimal" android:persistent="false" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory  android:title="@string/INFO_CFG_M"  android:key="INFO_CFG_M">
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_INFO_M_PERIOD"  android:title="@string/INFO_CFG_M_PERIOD"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_INFO_M_DELAY"  android:title="@string/INFO_CFG_M_DELAY"  android:inputType="numberDecimal" android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory  android:title="@string/INFO_CFG_QTEST"  android:key="INFO_CFG_QTEST">
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceBool
+            android:key="VI_INFO_CHQ_SET_ENABLE"  android:title="@string/INFO_CFG_QTEST_ENABLE"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_INFO_CHQ_SET_LEVEL_LIGHT"  android:title="@string/INFO_CFG_QTEST_LEVEL_LIGHT"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_INFO_CHQ_SET_FPS_MAX"  android:title="@string/VI_INFO_QTEST_FPS_MAX"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_INFO_CHQ_SET_FPS_MIN"  android:title="@string/VI_INFO_QTEST_FPS_MIN"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceFloat
+            android:key="VI_INFO_CHQ_SET_FACE_DT"  android:title="@string/VI_INFO_QTEST_FACE_DELAY"  android:inputType="numberDecimal" android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory  android:title="@string/INFO_CFG_MISC"  android:key="INFO_CFG_MISC">
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceBool
+            android:key="VI_FACE_DRAW"  android:title="@string/INFO_CFG_FACE_DRAW"  android:inputType="numberDecimal" android:persistent="false" />
+        <com.psymaker.vibraimage.vibrama.pref.PreferenceList
+            android:key="VI_FACE_MODE"
+            android:title="@string/INFO_CFG_FACE_MODE"
+            android:dialogTitle="@string/INFO_CFG_FACE_MODE"
+            android:entries="@array/array_hdr_VI_FACE_MODE"
+            android:entryValues="@array/array_var_VI_FACE_MODE"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

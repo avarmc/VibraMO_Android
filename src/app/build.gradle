@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.psymaker.vibraimage.vibrama"
+        minSdkVersion 26
+        targetSdkVersion 33
+        multiDexEnabled true
+        versionCode 2
+        versionName '2.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++17 -frtti -fexceptions"
+            }
+        }
+
+        signingConfig signingConfigs.config
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/DEPENDENCIES', 'META-INF/NOTICE', 'META-INF/NOTICE.txt', 'META-INF/LICENSE', 'META-INF/LICENSE.txt']
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.config
+            proguardFile 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable true
+            debuggable true
+        }
+    }
+    productFlavors {
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    lint {
+        checkReleaseBuilds false
+    }
+    namespace 'com.psymaker.vibraimage.vibrama.med'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.preference:preference:1.2.1'
+    implementation "androidx.browser:browser:1.2.0"
+    implementation project(':jnilib-release')
+}

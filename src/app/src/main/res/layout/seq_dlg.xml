@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#3E80B4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/seq_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        >
+        <TextView  android:text="@string/seq_key_main" />
+
+        <EditText
+            android:id="@+id/seq_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:maxLines="1"
+            android:text="Name" />
+
+        <TextView  android:text="@string/seq_key_hash" />
+
+        <EditText
+            android:id="@+id/seq_hardware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="none"
+            android:selectAllOnFocus="true"
+            android:maxLines="1"
+            android:text="Name" />
+
+        <TextView  android:text="@string/seq_key_answ" />
+
+        <EditText
+            android:id="@+id/seq_license"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:maxLines="1"
+            android:text="Name" />
+
+
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/btn_http"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:text="@string/seq_http"
+        android:textColor="#5DBCD2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_demo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:text="@string/seq_demo"
+        android:textColor="#5DBCD2"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E80B4"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="@string/BUTTON_CHECK"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:text="@string/BUTTON_CANCEL"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
